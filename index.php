@@ -27,7 +27,7 @@ $msg = "Please Enter Valid email & password";}
  </head>
  <body>
 <div class="container">    
-	      <center> <img src="http://dipeshjamsudkar.rf.gd/img/icon.png" height="80px" width="105px" alt="dipeshjamsudkar" ></img>
+	      <center> <img src="https://dipeshjamsudkar.rf.gd/img/icon.png" height="80px" width="105px" alt="dipeshjamsudkar" ></img>
 	      <h5 class="brand-title">Login</h5>
 	      <h4 style="color:red;"><?php echo $msg; ?> </h4>
 	      
@@ -37,10 +37,9 @@ $msg = "Please Enter Valid email & password";}
 		  
 		  <h3 for="pwd" >Password : </h3>
 		  <input type="text" id="password" name="password" maxlength="20" value="" onkeypress='kypPress(event)' /> 
-		  Enter XXX if password's
-		  name not mentioned in form
+		 Demo Enter pass@123
 		  
-		  <button type="button" class="button">GET RESULT </button>    
+		  <button type="button" class="button">Login</button>    
 		  <p id="div" ></p>    
 	      </form>
 	      </div>
